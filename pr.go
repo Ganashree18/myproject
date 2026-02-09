@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-// func main(){
+func main(){
 
-// 	fmt.Println("haiii")
-// 	fmt.Println("helloooo")
+	fmt.Println("haiii")
+	fmt.Println("helloooo")
 
-// }
+}
 
 func main() {
 	var n int

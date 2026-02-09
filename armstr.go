@@ -1,9 +1,9 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main(){
-// 	var n int
-// 	fmt.PrintLn("Enter a number")
+func main(){
+	var n int
+	fmt.PrintLn("Enter a number")
 	
-// }
+}
