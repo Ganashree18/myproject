@@ -9,6 +9,7 @@ func main() {
 	fmt.Println("Helloo")
 	fmt.Print("Enter a string: ")
 	fmt.Scan(&s)
+	fmt.Println("hhhhh")
 
 	// rev:=""
 	for i := 0; i < len(s); i++ {
