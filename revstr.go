@@ -5,11 +5,11 @@ import "fmt"
 func main() {
 	var s string
 	// var rev string
+	fmt.Println("Hyyyyy")
 	fmt.Println("Let's reverse a string")
 	fmt.Println("Helloo")
 	fmt.Print("Enter a string: ")
 	fmt.Scan(&s)
-	fmt.Println("hhhhh")
 
 	// rev:=""
 	for i := 0; i < len(s); i++ {
