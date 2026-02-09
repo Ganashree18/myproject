@@ -1,12 +1,12 @@
 package main
 import "fmt"
 
-func main(){
+// func main(){
 
-	fmt.Println("haiii")
-	fmt.Println("helloooo")
+// 	fmt.Println("haiii")
+// 	fmt.Println("helloooo")
 
-	
+// }
 
 
 func main() {
@@ -21,4 +21,7 @@ func main() {
         a, b = b, a+b
     }
 }
+
+func hai(){
+	fmt.Println("HelloooHaiiii")
 }
