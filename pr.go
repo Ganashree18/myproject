@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // func main(){
@@ -8,20 +9,22 @@ import "fmt"
 
 // }
 
-
 func main() {
-    var n int
-    fmt.Print("Enter number of terms: ")
-    fmt.Scan(&n)
+	var n int
+	fmt.Print("Enter number of terms: ")
+	fmt.Scan(&n)
 
-    a, b := 0, 1
-    fmt.Print("Fibonacci series: ")
-    for i := 0; i < n; i++ {
-        fmt.Print(a, " ")
-        a, b = b, a+b
-    }
+	a, b := 0, 1
+	fmt.Print("Fibonacci series: ")
+	for i := 0; i < n; i++ {
+		fmt.Print(a, " ")
+		a, b = b, a+b
+	}
 }
 
-func hai(){
+func hai() {
 	fmt.Println("HelloooHaiiii")
+}
+func baii() {
+	fmt.Println("Byeeeeebaiiii")
 }
