@@ -5,9 +5,8 @@ import "fmt"
 func main() {
 	var s string
 	// var rev string
-	fmt.Println("Hyyyyy")
-	fmt.Println("Let's reverse a string")
 	fmt.Println("Helloo")
+	fmt.Println("Let's reverse a string")
 	fmt.Print("Enter a string: ")
 	fmt.Scan(&s)
 
