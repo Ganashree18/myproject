@@ -1,16 +1,19 @@
 package controllers
 
 import (
-	
-	"myproject/models"
+	"fmt"
 	"myproject/db"
-
+	"myproject/models"
 	"net/http"
 
 	"github.com/gin-gonic/gin"
 )
 
-func CreateProduct(c *gin.Context){
+func Sample() {
+	fmt.Println("Sampleeeee")
+}
+
+func CreateProduct(c *gin.Context) {
 	var prod models.Product
 	if err := c.ShouldBindJSON(&prod); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
