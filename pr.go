@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func main(){
+func Hai(){
 
 	fmt.Println("haiii")
 	fmt.Println("helloooo")
 
 }
 
-func main() {
+func Fib() {
 	var n int
 	fmt.Print("Enter number of terms: ")
 	fmt.Scan(&n)

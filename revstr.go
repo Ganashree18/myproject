@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func ReverseStr() {
 	var s string
 	// var rev string
 	fmt.Println("Helloo")

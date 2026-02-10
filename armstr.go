@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main(){
-	var n int
-	fmt.PrintLn("Enter a number")
+func Armstr(){
+	// var n int
+	// fmt.PrintLn("Enter a number")
 	
 }

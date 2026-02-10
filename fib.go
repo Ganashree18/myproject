@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func main(){
+func Fibo(){
 	var n int
 	fmt.Print("Enter the number: ")
 	fmt.Scan(&n)

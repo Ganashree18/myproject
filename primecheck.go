@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func main(){
+func PrimeCheck(){
 	var n int 
 	fmt.Print("Enter a number")
 	fmt.Scan(&n)
